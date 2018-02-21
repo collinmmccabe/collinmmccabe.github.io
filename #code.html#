@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>CM McCabe, Links</title>
+	<title>CM McCabe, Code Portfolio</title>
 	
 	<link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
 	
@@ -13,17 +13,17 @@
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="foundation-icons/foundation-icons.css">
 
-	<script src="js/vendor/custom.modernizr.js"></script>
+	<script src="/js/vendor/custom.modernizr.js"></script>
 	<style media="screen" type="text/css">
 	body {
-		background: #e8c9e8; }
+		background: #c9c9e8; }
 	a {
-		color: #8b788b;
+		color: #78788b;
 		font-weight: normal; }
 	a:hover, a:focus {
-		color: #3c453c; }
+		color: #3c3c45; }
 	.panel {
-		border-color: #d0b4d0; }
+		border-color: #b4b4d0; }
   	</style>
 </head>
 
@@ -93,53 +93,53 @@
 	<div class="row">
 		<div class="large-12 columns" style="padding-bottom: 20px;">
 			<hr style="border: 1.5px solid #333; background: #333;" />
-			<h1 align="center">Links</h1>
+			<h1 align="center">Code Portfolio</h1>
 			<hr style="border: 1.5px solid #333; background: #333;" />
 		</div>
 	</div>
 
-	<div class="row" style="padding-bottom: 74px;">
+	<div class="row">
 		<div class="large-12 columns">
 
-			<div class="row">
-				<div class="large-12 columns">
+			<div class="row" style="padding-bottom: 74px;">
+				
+				<div class="large-9 columns">
+				
 					<div class="panel">
-						<h3>Affiliated Labs and Working Groups</h3>
-						<p><a href="http://nunn-lab.org/" target="_blank">The Nunn Lab at Duke University</a> - Graduate Student co-advised by Dr. Charles Nunn</p>
-						<p><a href="http://heb.fas.harvard.edu/research/behavioral-biology-and-cultural-evolution" target="_blank">Behavioral Biology and Cultural Evolution Research Group at Harvard University</a> - Graduate Student co-advised by Dr. Richard Wrangham</p>
-						<p><a href="https://www.nescent.org/wg_phylopsy/Main_Page" target="_blank">Phylogenetic Psychology Working Group at NESCent</a> - Participating Researcher</p>
-						<p><a href="https://www.nescent.org/wg_socialtraits/Main_Page" target="_blank">Social Traits Working Group at NESCent</a> - Participating Researcher</p>
+						<h3>R Code</h3>
+						<p>Simulate the spread of a pathogen through a network by both social and non-social transmission - <a href="codefiles/simulation.R">download</a></p>
+						<p>Compare the spread of a pathogen over a network by exclusively social and exclusively asocial transmission, with AIC values for each model - <a href="codefiles/NBDA_basic.R">download</a></p>
+						<p>Compare the spread of a pathogen over a network by mixed social-asocial and exclusively asocial transmission, with AIC values for each model - <a href="codefiles/NBDA_extended.R">download</a></p>
+						<p>Print a basic SIR graph from infection statuses over time - <a href="codefiles/epigraph.R">download</a></p>
+						<p>Reproduce figure 1 from McCabe et al. 2014 PRSB, with both a scatterplot and phylogeny with tip shading indicating trait values - <a href="codefiles/fig1.R">download</a></p>
+						<p>Reproduce figure 2 from McCabe et al. 2014 PRSB, a 2x2 matrix of histograms with differential shading of positive and negative values - <a href="codefiles/fig2_noAT.R">download</a></p>
 					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="large-6 columns">
 					
 					<div class="panel">
-						<h3>Funding and Research Support</h3>
-						<p><a href="https://www.nsfgrfp.org/" target="_blank">NSF Graduate Research Fellowship Program</a></p>
-						<p><a href="http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5407" target="_blank">NSF Biological Anthropology Program</a></p>
-						<p><a href="http://www.wennergren.org/" target="_blank">The Wenner-Gren Foundation</a></p>
-						<p><a href="http://heb.fas.harvard.edu/" target="_blank">Harvard University Department of Human Evolutionary Biology</a></p>
-						<p><a href="http://www.gonhs.org/" target="_blank">Gibraltar Ornithological and Natural History Society</a></p>
-						<p><a href="http://www.mpala.org/" target="_blank">Mpala Research Centre</a></p>
+						<h3>MATLAB Code</h3>
+						<p>Reproduction of Boyd et al. punisher vs. non-punisher simulation - <a href="codefiles/punishVnonpunish.m">download</a></p>
+						<p>McCabe and Rand 2014 punisher vs. anti-social punisher simulation - <a href="codefiles/punishVantisocpunish.m">download</a></p>
+					</div>
+
+					<div class="row">
+						<div class="large-12 columns">
+							<p>Alternatively, all of my code files are available on <a href="https://www.github.com/collinmmccabe" target="_blank">GitHub</a>.  If you see any errors or would like to add new functionality, feel free to fork and/or merge to your heart's content!</p>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="large-3 columns">
+					<div class="panel" style="background: #aaa; border-color: #b4b4d0;">
+								<h4><b><a href="portfolio.html" style="color: #111;">Portfolio Home</a></b></h4>
+								<hr style="color: #111;">
+								<p><a href="websites.html" style="color: #fff">Web Projects</a></p>
+								<p><a href="code.html" style="color: #fff">Code</a></p>
+								<p><a href="datasets.html" style="color: #fff">Datasets</a></p>
+								
 					</div>
 				</div>
 				
-				<div class="large-6 columns">
-					
-					<div class="panel">
-						<h3>Collaborators</h3>
-						<p><a href="http://behavecol.elte.hu/en/index.php?id=members&id2=garamszegilz" target="_blank">László Garamszegi</a></p>
-						<p><a href="http://brianhare.net/" target="_blank">Brian Hare</a></p>
-						<p><a href="http://people.nunn-lab.org/charlie/" target="_blank">Charles Nunn</a></p>
-						<p><a href="http://davidrand-cooperation.com/" target="_blank">David Rand</a></p>
-						<p><a href="http://biology.mcgill.ca/faculty/reader/" target="_blank">Simon Reader</a></p>
-						<p><a href="https://labs.eemb.ucsb.edu/young/hillary/" target="_blank">Hillary Young</a></p>
-						
-					</div>
-				</div>
 			</div>
 			
 		</div>
@@ -151,16 +151,16 @@
 			<div class="large-6 push-6 columns">
 				<ul class="home-social">
 					<li>
-						<a class="socialicons rg first" href="https://www.researchgate.net/profile/Collin_McCabe" target="_blank">ResearchGate</a>
+						<a class="socialicons gplus first" href="https://scholar.google.com/citations?hl=en&user=8klzyA8AAAAJ" target="_blank">Google Scholar</a>
 					</li>
 					<li>
-						<a class="socialicons acedu" href="https://harvard.academia.edu/CollinMcCabe" target="_blank">Academia.edu</a>
+						<a class="socialicons rg" href="https://www.researchgate.net/profile/Collin_McCabe" target="_blank">ResearchGate</a>
 					</li>
 					<li>
 						<a class="socialicons linkedin" href="https://www.linkedin.com/in/collinmmccabe" target="_blank">LinkedIn</a>
 					</li>
 					<li>
-						<a class="socialicons gplus" href="https://scholar.google.com/citations?hl=en&user=8klzyA8AAAAJ" target="_blank">Google Scholar</a>
+						<a class="socialicons gh" href="https://www.github.com/collinmmccabe" target="_blank">GitHub</a>
 					</li>
 					<li>
 						<a class="socialicons tw" href="https://twitter.com/collinmmccabe" target="_blank">Twitter</a>
@@ -174,7 +174,7 @@
 			<div class="large-6 pull-6 columns">
 				<p><i style="font-size:21" class="fi-mobile-signal"></i> - Mobile-responsive layout<br />
 				Created and maintained by Collin McCabe<br />
-				Developed on the <a style="color:#8b788b;font-weight:300;" href="http://foundation.zurb.com" target="blank">Foundation</a> framework from <a style="color:#8b788b;font-weight:300;" href="http://zurb.com" target="blank">ZURB</a>
+				Developed on the <a style="color:#78788b;font-weight:300;" href="http://foundation.zurb.com" target="blank">Foundation</a> framework from <a style="color:#78788b;font-weight:300;" href="http://zurb.com" target="blank">ZURB</a>
 				</p>
 			</div>
 			-->
@@ -205,7 +205,7 @@
 	<script src="js/foundation/foundation.magellan.js"></script>
 	<script src="js/foundation/foundation.orbit.js"></script>
 	<script src="js/foundation/foundation.reveal.js"></script>
-	<script src="js/foundation/foundation.section.js"></script>
+
 	<script src="js/foundation/foundation.tooltips.js"></script>
 	<script src="js/foundation/foundation.topbar.js"></script>
 	<script src="js/foundation/foundation.interchange.js"></script>

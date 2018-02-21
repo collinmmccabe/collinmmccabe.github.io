@@ -22,7 +22,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #C0D9AF;
+  background: #C9E8C9;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -1050,11 +1050,12 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: #52D0A1;
   text-decoration: none;
+  font-weight: normal;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #2795b6; }
+    color: #696070; }
   a img {
     border: none; }
 
@@ -4781,8 +4782,4 @@ a.th {
 
 .cv-item p {
 	margin-bottom:0;
-	}
-	
-.cv-item p a {
-	color:darkgreen;
 	}

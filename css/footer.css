@@ -3,8 +3,11 @@
 ----------------------------------------- */
 
 .zurb-footer-bottom {
-  background: #333;
-  padding: 24px 0 10px; }
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  padding: 5px 0 5px; }
   
 .zurb-footer-bottom p {
   color: #666; 
@@ -15,7 +18,7 @@
 .zurb-footer-bottom .design-border {
   border-bottom: 1px solid #484848;
   padding-bottom: 5px;
-  margin-bottom: 25px; }
+  margin-bottom: 0px; }
 
 .zurb-footer-bottom a.zurb-logo {
   color: #858585;
@@ -59,7 +62,7 @@
 .zurb-footer-bottom ul.home-social {
   display: block;
   float: right;
-  margin-bottom: 15px; }
+  margin-bottom: 0px; }
 
 .zurb-footer-bottom ul.home-social li {
   list-style: none;
@@ -106,6 +109,17 @@ a.rg:hover {
 	border-color: #6e6e6e;
 }
 
+a.gh {
+	background-image: url("socialicons/github36.png");
+	background-position: -2px -2px;
+	background-color: #CCCCCC;
+	border-color: #CCCCCC;
+}
+
+a.gh:hover {
+	border-color:#CCCCCC;
+}
+
 a.mail {
 	background-image: url("socialicons/mail36.gif");
 	background-position: -2px -2px;
@@ -140,12 +154,12 @@ a.flickr:hover {
 a.gplus {
 	background-image: url("socialicons/goog36.gif");
 	background-position: -2px -2px;
-	background-color: #CE4D39;
-	border-color: #CE4D39;
+	background-color: #4799D8;
+	border-color: #4799D8;
 }
 
 a.gplus:hover {
-	border-color: #CE4D39;
+	border-color: #4799D8;
 }
 
 a.linkedin {
@@ -224,22 +238,22 @@ a.socialicons {
     display: inline-block;
     margin-left: auto;
   	margin-right: auto;
-  	margin-bottom: 50px;
+  	margin-bottom: 0px;
     text-align: center; }
     
 .zurb-footer-bottom ul.zurb-links li a {
     font-size: 12px; }
     
 .zurb-footer-bottom {
-  background: #333;
-  padding: 24px auto 10px;
+  background: #111;
+  padding: 5px auto 5px;
   margin-left: auto;
   margin-right: auto; }
 
 .zurb-footer-bottom .design-border {
   border-bottom: 1px solid #484848;
   padding-bottom: 5px;
-  margin-bottom: 25px; }
+  margin-bottom: 5px; }
 
 .zurb-footer-bottom a.zurb-logo:hover {
   opacity: 0.8; }
@@ -264,7 +278,7 @@ a.socialicons {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px; }
+  margin-bottom: 0px; }
 
 .zurb-footer-bottom ul.home-social li {
   list-style: none;
