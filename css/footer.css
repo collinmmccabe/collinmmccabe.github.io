@@ -74,8 +74,7 @@
   margin-left: 0; }
 
 a.cc-license-icon {
-  margin: 40px 8px 40px;
-  border-radius:0px; }
+  margin: 40px 8px 40px 8px; }
 
 a.socialicons {
 	overflow: hidden;
