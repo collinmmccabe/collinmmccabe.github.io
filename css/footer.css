@@ -72,7 +72,11 @@
 
 .zurb-footer-bottom ul.home-social li:first-child {
   margin-left: 0; }
-  
+
+a.cc-license-icon {
+  margin: 8px 40px 8px;
+  border-radius:0px; }
+
 a.socialicons {
 	overflow: hidden;
 	overflow-x: hidden;
@@ -309,9 +313,4 @@ a.last {
 	border-radius:0 8px 8px 0; }
 
 a.socialicons:hover {
-	margin: 0;
-} 
-
-a.cc-license-icon {
-  margin: 8px 40px 8px;
-  border-radius:0px; }}
+	margin: 0; } }
