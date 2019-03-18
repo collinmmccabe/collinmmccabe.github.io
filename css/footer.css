@@ -310,4 +310,8 @@ a.last {
 
 a.socialicons:hover {
 	margin: 0;
-} }
+} 
+
+a.cc-license-icon {
+  margin: 8px 40px 8px;
+  border-radius:0px; }}
